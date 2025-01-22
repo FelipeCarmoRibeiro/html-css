@@ -1,0 +1,28 @@
+body {
+    background-color: #4AC3F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #4A56F7;
+}
+
+h2 {
+    color: #4A56F7;
+}
+
+#principal {
+    text-align: center;
+    color: #4A8DF7;
+    background-color: #50FAF7;
+}
+
+.basico {
+    background-color: #774AF7;
+    color: #86B2FA;
+}
+
+.destaque {
+    background-color: #4A8DF7;
+
+}
