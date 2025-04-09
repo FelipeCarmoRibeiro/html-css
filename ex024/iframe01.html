@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            height: 500px;
+            width: 400px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Testando o uso de iframes</h1>
     <p>
         Acessando o site do
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scolling="no">
+            [Seu navegador nao é compativel com iframe]
+        </iframe>
 
         para aprender a programar
     </p>
@@ -19,6 +28,12 @@
         O site do
         <iframe src="https://www.google.com.br/?hl=pt-BR" frameborder="0"></iframe>
         é muito legal
+    </p>
+
+    <p>O repositorio do Felipe
+
+        <iframe src="https://github.com/FelipeCarmoRibeiro" frameborder="0"></iframe>
+
     </p>
 </body>
 
