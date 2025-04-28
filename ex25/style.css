@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    background-color: rgb(94, 94, 255);
+    width: 300px;
+    padding: 100px;
+    margin: 30px;
+}
